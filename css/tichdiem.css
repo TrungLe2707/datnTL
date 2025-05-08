@@ -1,0 +1,182 @@
+
+
+
+
+
+.tichdiem-info-bar,
+.tichdiem-main .tichdiem-container,
+.footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .tichdiem-info-bar {
+    background-color: #fee2e2;
+    padding: 10px 20px;
+    margin: 10px auto;
+    margin-left: 10%;
+    border-radius: 4px;
+    max-width: 80%;
+} */
+
+.tichdiem-info-bar h1 {
+    color:004F93;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tichdiem-info-bar p {
+    color: 004F93;
+}
+
+.tichdiem-main .tichdiem-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tichdiem-main .tichdiem-sidebar {
+    width: 25%;
+    padding: 20px;
+}
+
+.tichdiem-main .tichdiem-sidebar .tichdiem-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tichdiem-main .tichdiem-sidebar .tichdiem-profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.tichdiem-main .tichdiem-sidebar .tichdiem-profile div {
+    margin-left: 10px;
+}
+
+.tichdiem-main .tichdiem-sidebar .tichdiem-profile div p {
+    margin: 0;
+}
+
+.tichdiem-main .tichdiem-sidebar .tichdiem-profile div p:first-child {
+    font-weight: bold;
+}
+
+.tichdiem-main .tichdiem-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tichdiem-main .tichdiem-sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.tichdiem-main .tichdiem-sidebar nav ul li:hover {
+    background-color: #e5e7eb;
+}
+
+.tichdiem-main .tichdiem-sidebar nav ul li i {
+    color: #6b7280;
+}
+
+.tichdiem-main .tichdiem-sidebar nav ul li a {
+    margin-left: 10px;
+    color: #374151;
+    text-decoration: none;
+}
+
+.tichdiem-main .tichdiem-sidebar hr {
+    margin: 20px 0;
+}
+
+.tichdiem-main .tichdiem-section {
+            flex: 3;
+            min-width: 300px;
+        }
+        .tichdiem-main .tichdiem-section h2 {
+            font-size: 1.25rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f7f7f7;
+        }
+        .tichdiem-pagination {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .tichdiem-pagination a {
+            margin: 0 5px;
+            color: #333;
+            text-decoration: none;
+        }
+.footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .tichdiem-main .tichdiem-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tichdiem-main .tichdiem-sidebar,
+    .tichdiem-main .tichdiem-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .tichdiem-info-bar {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 18px;
+    }
+    .tichdiem-main .tichdiem-content {
+        width: 100%;
+        text-align: center;
+    }
+    .tichdiem-main .tichdiem-content .tichdiem-info {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .tichdiem-info-bar {
+        width: 100%;
+    }
+    .tichdiem-info-bar h1 {
+        font-size: 18px;
+        width: 100%;
+    }
+    .tichdiem-main .tichdiem-content {
+        width: 100%;
+        text-align: center;
+    }
+    .tichdiem-main .tichdiem-content h2 {
+        font-size: 18px;
+        width: 100%;
+    }
+    .tichdiem-main .tichdiem-content button {
+        width: 100%;
+    }
+}

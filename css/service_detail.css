@@ -1,0 +1,101 @@
+*{
+    margin: 0PX; 
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container .service-detail-section .service-detail-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px auto;
+    height: 50px;
+    background-color:  rgb(0, 79, 147, 100%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+.container .service-detail-section .service-detail-name h3{
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+.container .service-detail-section .service-detail-price{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 180px auto;
+    height: 50px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+.container .service-detail-title h2{
+    padding-top: 30px;
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+
+}
+.container .service-detail-title p{
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+    padding-top: 5px;
+
+}
+.container .service-detail-section .service-detail-progess{
+    width: 280px;
+    margin-top: 20px;
+    
+}
+.container .service-detail-section .service-detail-progess img{
+    width: 100%;
+    border-radius: 15px;
+}
+.container .service-detail-section .service-detail-progess .service-detail-progess-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .service-detail-section .service-detail-progess .service-detail-progess-name h3{
+    font-family: 'Arial', sans-serif;
+    color:  rgb(0, 79, 147, 100%);
+
+}
+.container .service-detail-btn{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .service-detail-btn .button{
+    width: 202px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    background-color:  rgb(0, 79, 147, 100%);
+}
+.container .service-detail-btn .button .a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-color:  rgb(0, 79, 147, 100%);
+    font-weight: bold;
+}
+@media screen and (max-width: 391px){
+    *{
+        font-size: 12px;
+    }
+    .container .service-detail-section .service-detail-progess .img{
+        margin-top: 0px;
+    }
+    .container .service-detail-section .service-detail-progess{
+        width:auto;
+        margin-top: 10px;
+        
+        
+    }
+    .container .service-detail-section .service-detail-progess img{
+        width: 100% auto;
+        border-radius: 15px;
+    }
+
+}

@@ -1,0 +1,236 @@
+
+
+.lichsu-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.lichsu-tieude {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.lichsu-tieude h1 {
+  color: 004F93;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.lichsu-tieude p {
+  color: 004F93;
+}
+
+.lichsu-rating-section {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.stars i {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.stars i.active {
+  color: gold;
+}
+.lichsu-comment-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+}
+.lichsu-textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.lichsu-submit-btn {
+  background-color: 004F93;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.lichsu-submit-btn:hover {
+  background-color: #0056b3;
+}
+.lichsu-label{
+  font-size: 20px;
+ 
+}
+.lichsu-details p{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.stars i {
+  color: #d1d5db;
+  font-size: 1.875rem;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.stars i.active {
+  color: #fbbf24;
+}
+
+.lichsu-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}.lichsu-card {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px; /* Bo góc mềm hơn */
+  border: 2px solid #e5e7eb; /* Viền xám nhẹ */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), /* Bóng chính */
+              0 1px 3px rgba(0, 0, 0, 0.05); /* Bóng phụ nhẹ */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+
+@media (min-width: 768px) {
+  .lichsu-grid {
+      grid-template-columns: 1fr 1fr; 
+  }
+}
+
+.lichsu-card {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.lichsu-h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.lichsu-h3 i {
+  color: #000000;
+  font-size: 1.25rem;
+  margin-right: 8px;
+}
+
+.lichsu-h3 h3 {
+  color: #000000;
+  font-weight: bold;
+}
+
+.lichsu-card p {
+  color: #6b7280;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.lichsu-content {
+  display: flex;
+  align-items: start;
+}
+
+.lichsu-content img {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+
+.lichsu-details p {
+  margin-bottom: 4px;
+}
+
+.lichsu-details .lichsu-label {
+  font-weight: bold;
+}
+
+.lichsu-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.lichsu-pagination a {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  color: #6b7280;
+  background-color: #ffffff;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.lichsu-pagination a:hover {
+  background-color: #e5e7eb;
+}
+
+/* Additional responsive styles */
+@media (max-width: 480px) {
+  .lichsu-container {
+      padding: 8px; /* Adjust padding for smaller screens */
+      max-width: 100%; /* Ensure full width on mobile */
+  }
+
+  .lichsu-tieude h1 {
+      font-size: 1rem; /* Smaller title font size */
+  }
+
+  .lichsu-tieude p {
+      font-size: 0.875rem; /* Smaller paragraph font size */
+  }
+
+  .lichsu-rating-section h2 {
+      font-size: 10px; /* Smaller rating title font size */
+  }
+
+  .stars i {
+      font-size: 1.5rem; /* Smaller star size */
+  }
+
+  .lichsu-content {
+      display: flex; /* Use flexbox for alignment */
+      flex-direction: column; /* Stack image and lichsu-details vertically */
+      align-items: center; /* Center items horizontally */
+      text-align: center; /* Center text */
+  }
+  .lichsu-label{
+    font-size: 20px;
+  }
+
+  .lichsu-content img {
+      width: 100%; /* Full width image on mobile */
+      max-width: 300px; /* Limit max width for the image */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 8px; /* Space between image and text */
+  }
+
+  .lichsu-card {
+      padding: 12px; /* Adjust card padding for smaller screens */
+      margin-bottom: 16px; /* Space between cards */
+  }
+
+  .lichsu-h3 h3 {
+      font-size: 1rem; /* Smaller heading font size */
+  }
+
+  .lichsu-card p {
+      font-size: 20px; /
+  }
+
+  .lichsu-pagination {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 24px; 
+}
+
+
+}

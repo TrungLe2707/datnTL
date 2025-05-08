@@ -1,0 +1,120 @@
+.yeuthich-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.yeuthich-header, .yeuthich-footer {
+    background-color: 004F93;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+}
+.yeuthich-header h1, .yeuthich-footer p {
+    margin: 0;
+}
+.yeuthich-main {
+    margin-bottom: 2rem;
+}
+.yeuthich-main h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: 004F93;
+    display: flex;
+    align-items: center;
+}
+.yeuthich-main h1 i {
+    color: #EF4444;
+    margin-right: 0.5rem;
+}
+.yeuthich-main p {
+    color: 004F93;
+}
+.yeuthich-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+
+.yeuthich-product-card {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.yeuthich-product-card img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.yeuthich-product-card .yeuthich-heart-icon {
+    color: 004F93;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+.yeuthich-product-card h2 {
+    color: #4B5563;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+.yeuthich-product-card .yeuthich-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+.yeuthich-product-card p {
+    color: #6B7280;
+    font-size: 15px;
+}
+.yeuthich-product-card .yeuthich-price {
+    color: #4B5563;
+    font-size: 15px;
+    font-weight: bold;
+}
+.yeuthich-product-card .yeuthich-button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.yeuthich-product-card button {
+    flex: 1;
+    background-color: #FFFFFF;
+    color: 004F93;
+    border: 1px solid 004F93;
+    border-radius: 10px;
+    padding: 7px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.yeuthich-product-card button:hover {
+    background-color: 004F93;
+    color: #FFFFFF;
+}
+.yeuthich-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.yeuthich-pagination a {
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    color: #6b7280;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin: 0 4px;
+}
+.yeuthich-pagination a:hover {
+    background-color: #e5e7eb;
+}
+@media (min-width: 640px) {
+    .yeuthich-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .yeuthich-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

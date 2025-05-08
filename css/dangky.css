@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+.dangky-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f8fafc;
+}
+.dangky-container #dangky-box{
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+}
+#dangky-box .dangky-logo{
+    width: 100%;
+    height: 30vh;
+}
+.dangky-logo .img{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    margin-top: 30px;
+}
+.dangky-logo .dangky-contents{
+    text-align: center;
+    color: #94a3b8;
+}
+.dangky-contents h2{
+    font-size: 27px;
+    color: #475569;
+    margin-bottom: 5px;
+}
+#dangky-box .register{
+    width: 100%;
+    height: 44vh;
+}
+.register .dangky-form{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.dangky-form input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #e9eef5;
+    padding-left: 20px;
+    transition: 0.1s;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+} 
+.dangky-form input:focus{
+    outline: 3px solid rgb(79 70 229 / .5);
+}
+.dangky-form label{
+    font-size: 17px;
+}
+.dangky-form .button{
+    width: 100%;
+}
+.dangky-form button{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.dangky-form .dangky-sub-button{
+    margin-bottom: 10px;
+    background-color: #0068ff;
+}
+.dangky-form .dangky-sub-button:hover{
+    background-color: #4338ca;
+}
+.dangky-form .dangky-sub{
+    width: 100%;
+    height: 20px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+.dangky-sub a{
+    text-decoration: none;
+    color: #475569;
+}
+.dangky-sub a:hover{
+    color:#4338ca;
+}
+#dangky-box .dangky-small-contents{
+    width: 80%;
+    margin: 0 auto;
+    height: 20vh;
+}
+.dangky-small-contents p{
+    width: 100%;
+    line-height: 30px;
+}
+@media (max-width: 740px) {
+    
+    .dangky-container{
+        width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f8fafc;
+    
+    }
+    .dangky-container #dangky-box{
+        background-color: #fff;
+         width: 100%;
+        height: 100%;
+       
+    
+    } 
+    
+    }   
+    @media (max-width: 1113px ) and (min-width:741px) {
+    
+    
+        .dangky-container{
+            width: 100%;
+            height: 100vh;
+           justify-content: center;
+            background-color: #f8fafc; 
+        
+        }
+        .dangky-container #dangky-box{
+            background-color: #fff;
+             width: 70%;
+            height: 100%;
+           
+        
+        } 
+    
+    }

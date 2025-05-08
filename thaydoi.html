@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Customer Information</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="./css/productdetail.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/barber.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/service_detail.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/submit.css">
+    <link rel="stylesheet" href="./css/page_404.css">
+    <link rel="stylesheet" href="./css/booking.css">
+    <link rel="stylesheet" href="./css/blog_detail.css">
+    <link rel="stylesheet" href="./css/bao_tri.css">
+    <link rel="stylesheet" href="./css/donhang.css">
+    <link rel="stylesheet" href="./css/lichsu.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/thongtin.css">
+    <link rel="stylesheet" href="./css/tichdiem.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/chgn.css">
+    <link rel="stylesheet" href="./css/dangky.css">
+    <link rel="stylesheet" href="./css/user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>day la header</h1>
+    </header>
+
+    <div class="thaydoi-info-bar">
+        <div class="thaydoi-container">
+            <h1>| THAY ĐỔI THÔNG TIN</h1>
+            <p>Vui lòng cập nhật thông tin của bạn!</p>
+        </div>
+    </div>
+    <main class="thaydoi-main">
+        <div class="thaydoi-container">
+            <aside class="thaydoi-sidebar">
+                <div class="thaydoi-profile">
+                    <img src="https://storage.googleapis.com/a1aa/image/Ic7gu6iOCdOKE83IrRbFSkGs4tIste4FjvdfwmVHSM0.jpg" alt="User  avatar">
+                    <div>
+                        <p>Anh Khôi</p>
+                        <p class="thaydoi-hangtv">Chưa có hạng thành viên</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><i class="fas fa-user"></i><a href="thongtin.html">Thông tin tài khoản</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i><a href="tichdiem.html">Tích điểm</a></li>
+                        <li><i class="fas fa-box"></i><a href="#">Đơn hàng</a></li>
+                    </ul>
+                </nav>
+                <hr>
+                <div class="thaydoi-flex items-center">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <a style="text-decoration: none;color: black;" href="#">Đăng xuất</a>
+                </div>
+            </aside>
+            <section class="thaydoi-content">
+                <h2>Thay đổi thông tin khách hàng</h2>
+                <form id="thaydoi-updateForm">
+                    <div class="thaydoi-info">
+                        <div>
+                            <label for="fullname">Họ và tên</label>
+                            <input type="text" id="fullname" value="Trần Đình Khôi">
+                        </div>
+                        <div>
+                            <label for="phone">Số điện thoại</label>
+                            <input type="text" id="phone" value="0918740422">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" value="trandinhkhoi842005@gmail.com">
+                        </div>
+                        <div>
+                            <label for="city">Tỉnh/Thành Phố*</label>
+                            <input type="text" id="city" value="Thành Phố Hồ Chí Minh">
+                        </div>
+                        <div>
+                            <label for="district">Quận/Huyện*</label>
+                            <input type="text" id="district" value="Quận Thủ Đưc">
+                        </div>
+                        <div>
+                            <label for="ward">Xã/Thị Trấn*</label>
+                            <input type="text" id="ward" value="Phường Hiệp Bình Chánh">
+                        </div>
+                        <div>
+                            <label for="address">Tòa Nhà/Tên Đường</label>
+                            <input type="text" id="address" value="445/9A Kha Vạn Cân">
+                        </div>
+                    </div>
+                    <button type="submit">Cập nhật</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3>day la foooter</h3>
+    </footer>
+
+    <script>
+        document.getElementById('updateForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Ngăn form load lại trang
+            alert('Cập nhật thông tin thành công!');
+        });
+    </script>
+</body>
+</html>

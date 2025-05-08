@@ -1,0 +1,35 @@
+*{
+    margin: 0PX; 
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container .about-title .about-text{
+    margin-top: 15px;
+}
+.container .about-title .about-h2{
+    padding-top: 30px;
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+
+}
+.container .about-title .about-h3{
+    padding-top: 30px;
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+    
+}
+.container .about-title .about-text{
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+
+}
+.container .about-banner{
+    margin-top: 15px;
+}
+.container .about-banner .img{
+    width: 100%;
+}
+.container .about-banner .img .about-img{
+    max-width: 100%;
+    border-radius: 15px;
+}

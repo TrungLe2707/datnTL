@@ -1,0 +1,259 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Information</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="./css/productdetail.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/barber.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/service_detail.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/submit.css">
+    <link rel="stylesheet" href="./css/page_404.css">
+    <link rel="stylesheet" href="./css/booking.css">
+    <link rel="stylesheet" href="./css/blog_detail.css">
+    <link rel="stylesheet" href="./css/bao_tri.css">
+    <link rel="stylesheet" href="./css/donhang.css">
+    <link rel="stylesheet" href="./css/lichsu.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/thongtin.css">
+    <link rel="stylesheet" href="./css/tichdiem.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/chgn.css">
+    <link rel="stylesheet" href="./css/dangky.css">
+    <link rel="stylesheet" href="./css/user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  
+</head>
+<body>
+    <header class="header">
+     <h1>day la header   </h1>
+    </header>
+  
+    <div class="donhang-info-bar">
+        <div class="donhang-container">
+            <h1>| ĐƠN HÀNG </h1>
+            <p>Hãy theo dõi tất cả đơn hàng của bạn tại đây !</p>
+        </div>
+    </div>
+    <main class="donhang-main">
+        <div class="donhang-container">
+            <aside class="donhang-sidebar">
+                <div class="donhang-profile">
+                    <img src="https://storage.googleapis.com/a1aa/image/Ic7gu6iOCdOKE83IrRbFSkGs4tIste4FjvdfwmVHSM0.jpg" alt="User avatar">
+                    <div>
+                        <p>Anh Khôi</p>
+                        <p class="donhang-text-gray-600">Chưa có hạng thành viên</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><i class="fas fa-user"></i><a href="thongtin.html">Thông tin tài khoản</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i><a href="tichdiem.html">Tích điểm</a></li>
+                        <li><i class="fas fa-box"></i><a href="#">Đơn hàng</a></li>
+                    </ul>
+                </nav>
+                <hr>
+                <div class="donhang-flex items-center">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <a style="text-decoration: none;color: black;" href="#">Đăng xuất</a>
+                </div>
+            </aside>
+            <section class="donhang-content">
+                <div class="tabs">
+                    <a href="#" class="tab-link active" onclick="showTab(event, 'all-orders')">Tất cả</a>
+                    <a href="#" class="tab-link" onclick="showTab(event, 'donhang-pending-orders')">Chờ xác nhận</a>
+                    <a href="#" class="tab-link" onclick="showTab(event, 'ready-orders')">Chờ lấy hàng</a>
+                    <a href="#" class="tab-link" onclick="showTab(event, 'shipping-orders')">Đang giao</a>
+                    <a href="#" class="tab-link" onclick="showTab(event, 'delivered-orders')">Đã giao</a>
+                    <a href="#" class="tab-link" onclick="showTab(event, 'cancelled-orders')">Đã hủy</a>
+                </div>
+                <input type="text" class="donhang-search-input" placeholder="Tìm id đơn hàng hoặc tên sản phẩm ...">
+                <div id="all-orders" class="donhang-order-list active">
+                    <h2>Tất cả đơn hàng</h2>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-total">
+                        <p>Tổng tiền <span>830.000 đ</span></p>
+                    </div>
+                </div>
+                <div id="donhang-pending-orders" class="donhang-order-list">
+                    <h2>Chờ xác nhận</h2>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-total">
+                        <p>Tổng tiền <span>830.000 đ</span></p>
+                    </div>
+                </div>
+                <div id="ready-orders" class="donhang-order-list">
+                    <h2>Chờ lấy hàng</h2>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-total">
+                        <p>Tổng tiền <span>830.000 đ</span></p>
+                    </div>
+                </div>
+                <div id="shipping-orders" class="donhang-order-list">
+                    <h2>Đang giao</h2>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-total">
+                        <p>Tổng tiền <span>830.000 đ</span></p>
+                    </div>
+                </div>
+                <div id="delivered-orders" class="donhang-order-list">
+                    <h2>Đã giao</h2>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-total">
+                        <p>Tổng tiền <span>830.000 đ</span></p>
+                    </div>
+                </div>
+                <div id="cancelled-orders" class="donhang-order-list">
+                    <h2>Đã hủy</h2>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-order-item">
+                        <div class="donhang-order-info">
+                            <img src="https://storage.googleapis.com/a1aa/image/kx6PvIXZFbKE11Zg3LqQsDCcfEHUcTmoD-lKojMI_GQ.jpg" alt="Product Image">
+                            <div>
+                                <p>Dầu Gội Vichy Giảm Gàu Cho Da Đầu Dầu Dercos Shampoo Dandruff &amp; Itchy Scalp 200ml</p>
+                                <p>x1</p>
+                            </div>
+                        </div>
+                        <p>415.000</p>
+                    </div>
+                    <div class="donhang-total">
+                        <p>Tổng tiền <span>830.000 đ</span></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+      <h3>day la foooter</h3>
+    </footer>
+     <script>
+        function showTab(event, tabId) {
+            event.preventDefault();
+            var tabs = document.querySelectorAll('.tab-link');
+            var contents = document.querySelectorAll('.donhang-order-list');
+            tabs.forEach(function(tab) {
+                tab.classList.remove('active');
+            });
+            contents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+            document.querySelector('#' + tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="./css/productdetail.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/barber.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/service_detail.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/submit.css">
+    <link rel="stylesheet" href="./css/page_404.css">
+    <link rel="stylesheet" href="./css/booking.css">
+    <link rel="stylesheet" href="./css/blog_detail.css">
+    <link rel="stylesheet" href="./css/bao_tri.css">
+    <link rel="stylesheet" href="./css/donhang.css">
+    <link rel="stylesheet" href="./css/lichsu.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/thongtin.css">
+    <link rel="stylesheet" href="./css/tichdiem.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/chgn.css">
+    <link rel="stylesheet" href="./css/dangky.css">
+    <link rel="stylesheet" href="./css/user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="index-header">
+        
+        <label for="nav_mobile" class="index-header_3">
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </label>
+
+        <input hidden type="checkbox" class="nav_input" id="nav_mobile">
+
+        <label for="nav_mobile" class="nav_overlay"></label>
+        <nav class="nav_mobile">
+
+            <label for="nav_mobile" class="mobile-close">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+
+            <ul class="list">
+                <h2 style="padding: 40px 0 20px 50px;">MENU</h2>
+                <li><a class="mobile_link" href="./index.html">Trang chủ</a></li>
+                <li><a class="mobile_link" href="./product.html">Sản phẩm</a></li>
+                <li><a class="mobile_link" href="">Dịch vụ</a></li>
+                <li><a class="mobile_link" href="">Tìm địa chỉ gần nhất</a></li>
+                <li><a class="mobile_link" href="">Giới thiệu</a></li>
+                <li><a class="mobile_link" href="">Liên hệ</a></li>
+                <li><a class="mobile_link" href="">Xem yêu thích</a></li>
+                <br><br>
+                <li><a class="mobile_link" href="">Đăng ký</a></li>
+                <li><a class="mobile_link" href="">Đăng nhập</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div class="index-logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="index-header_box">
+            <div class="index-box_top">
+                <div class="index-header-hotline">
+                   <a href=""><p>Hotline: 0325132746</p></a> 
+                </div>
+                <div class="index-header-search">
+                    <input type="text" placeholder="   Tìm kiếm...">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="index-header_icon">
+                    <a class="index-header_iconuser" href=""><i class="fa-solid fa-heart"></i></a>
+                    <a class="index-header_iconsearch" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="index-header_iconuser" href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+    
+            <nav class="index-nav">
+                <ul>
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./product.html">Sản phẩm</a></li>
+                    <li><a href="">Dịch vụ</a></li>
+                    <li><a href="">Tìm địa chỉ gần nhất</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="slider-container">
+        <div class="slide-show">
+            <div class="list-img">
+                <img src="https://storage.30shine.com/banner/2024/241118_banner_uonnhuom_w.jpg" alt="Image 1">
+                <img src="https://storage.30shine.com/banner/2024/20240717_banner_khumui_w.jpg" alt="Image 2">
+                <img src="https://storage.30shine.com/banner/2024/20240311_banner_dqh_w.png" alt="Image 3">
+            </div>
+            <div class="btn-left btns"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="btn-right btns"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <section class="index-datlich">
+        <div class="grid wide container">
+            <div class="row rowcss">
+                <div class="col l-5 l-o-1 m-6 c-12">
+                    <div class="index-datlich-box">
+                        <h3>ĐẶT LỊCH GIỮ CHỖ CHỈ 30 GIÂY</h3>
+                        <p>Làm xong trả tiền, hủy kèo miễn phí</p>
+                        <form action="">
+                            <input type="text" placeholder="  Nhập SĐT để đặt lịch">
+                            <button type="submit">ĐẶT NGAY</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col l-5 m-6 c-12">
+                    <div class="index-datlich-danhgia">
+                        <h3>MỜI ANH CHỊ ĐÁNH GIÁ CHẤT LƯỢNG PHỤC VỤ</h3>
+                        <p>Đánh giá của anh chị sẽ giúp dịch vụ của chúng em hoàn thiện hơn</p>
+                        <div class="index-datlich-danhgia_icon">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="index-dichvu">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <h2 class="index-dichvu-ten">|  DỊCH VỤ TÓC</h2>
+                </div>
+            </div>
+        </div>
+       <!--  -->
+       <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 l-o-1 m-6 c-6">
+                    <div class="index-dichvu-box">
+                        <img src="https://storage.30shine.com/web/v4/images/uon-trang-chu/uon-1.jpg" alt="">
+                        <div class="index-dichvu-boxtext">
+                            <h4>Cắt tóc</h4>
+                            <a href=""><p>Tìm hiểu thêm <i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i><i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i></p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 cach">
+                    <div class="index-dichvu-box">
+                        <img src="https://storage.30shine.com/web/v4/images/uon-trang-chu/uon-1.jpg" alt="">
+                        <div class="index-dichvu-boxtext">
+                            <h4>Cắt tóc</h4>
+                            <a href=""><p>Tìm hiểu thêm <i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i><i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i></p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-dichvu-box">
+                        <img src="https://storage.30shine.com/web/v4/images/uon-trang-chu/uon-1.jpg" alt="">
+                        <div class="index-dichvu-boxtext">
+                            <h4>Cắt tóc</h4>
+                            <a href=""><p>Tìm hiểu thêm <i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i><i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i></p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="index-dichvu">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <h2 class="index-dichvu-ten">|  SPA & RELAX</h2>
+                </div>
+            </div>
+        </div>
+       <!--  -->
+       <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 l-o-1 m-6 c-6">
+                    <div class="index-dichvu-box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_spa_1.png" alt="">
+                        <div class="index-dichvu-boxtext">
+                            <h4>Gội Massage Relax</h4>
+                            <a href=""><p>Tìm hiểu thêm <i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i><i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i></p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6 cach">
+                    <div class="index-dichvu-box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_spa_1.png" alt="">
+                        <div class="index-dichvu-boxtext">
+                            <h4>Gội Massage Relax</h4>
+                            <a href=""><p>Tìm hiểu thêm <i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i><i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i></p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-dichvu-box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_spa_1.png" alt="">
+                        <div class="index-dichvu-boxtext">
+                            <h4>Gội Massage Relax</h4>
+                            <a href=""><p>Tìm hiểu thêm <i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i><i class="fa-solid fa-chevron-up fa-rotate-90" style="color: #004F93;"></i></p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-3 m-6 c-12">
+                <h2 class="index-dichvu-ten">|  30Shine Shop</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner product -->
+    <section class="carousel-container">
+        <div class="carousel-show">
+            <div class="carousel-list">
+                <img src="https://storage.30shine.com/banner/2024/241118_banner_uonnhuom_w.jpg" alt="Image 1">
+                <img src="https://storage.30shine.com/banner/2024/20240717_banner_khumui_w.jpg" alt="Image 2">
+                <img src="https://storage.30shine.com/banner/2024/20240311_banner_dqh_w.png" alt="Image 3">
+            </div>
+            <div class="carousel-btn-left carousel-btns"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="carousel-btn-right carousel-btns"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <section class="index-product-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                        <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+
+                        </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                            <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+    
+                            </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                            <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+    
+                            </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                            <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+    
+                            </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="index-product-all index-product-mobile">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                            <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+    
+                            </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                            <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+    
+                            </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                            <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+    
+                            </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-product-item">
+                        <a href="./productdetail.html">
+                            <img src="https://storage.30shine.com/web/v4/images/uu-dai-trang-chu/combo-web-1.jpg" alt="">
+    
+                            </a>
+                        <div class="index-product-text">
+                            <h3>Combo giữ nét x2</h3>
+                            <p><span>200.000đ</span><del>300.000đ</del></p>
+                        </div>
+                        <div class="index-product-icon">
+                            <p>53 đã bán</p>
+                            <a href=""><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <div class="index-xemthem">
+                    <h2 class="index-dichvu-ten">|  30Shine’s Angels</h2>
+                    <a href="" style="text-decoration: none; color: red;">Xem tất cả >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="index-nhanvien-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://stylist-storage.30shine.com/public/13468_3_1.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://stylist-storage.30shine.com/public/13468_3_1.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://stylist-storage.30shine.com/public/13468_3_1.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://stylist-storage.30shine.com/public/13468_3_1.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <div class="index-xemthem">
+                    <h2 class="index-dichvu-ten">|  30Shine’s Angels</h2>
+                    <a href="" style="text-decoration: none; color: red;">Xem tất cả >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="index-nhanvien-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://storage.30shine.com/web/v4/images/skinner/6.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://storage.30shine.com/web/v4/images/skinner/6.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://storage.30shine.com/web/v4/images/skinner/6.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-6">
+                    <div class="index-nhanvien-item">
+                        <img src="https://storage.30shine.com/web/v4/images/skinner/6.jpg" alt="">
+                        <p>408 Nguyễn Thị Thập, Quận 7, TP.HCM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <div class="index-xemthem">
+                    <h2 class="index-dichvu-ten">|  TIN TỨC VỀ 30SHINE</h2>
+                    <a href="" style="text-decoration: none; color: red;">Xem tất cả >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="index-tintuc-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-tintuc_box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_attt_1.png" alt="">
+                        <p>CEO 30Shine kể chuyện từ bỏ công nghiệp hóa tay nghề stylist, khẳng định không phải cứ có tiền là mua được nhượng quyền</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6">
+                    <div class="index-tintuc_box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_attt_1.png" alt="">
+                        <p>CEO 30Shine kể chuyện từ bỏ công nghiệp hóa tay nghề stylist, khẳng định không phải cứ có tiền là mua được nhượng quyền</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6 index-tintuc-mobile">
+                    <div class="index-tintuc_box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_attt_1.png" alt="">
+                        <p>CEO 30Shine kể chuyện từ bỏ công nghiệp hóa tay nghề stylist, khẳng định không phải cứ có tiền là mua được nhượng quyền</p>
+                    </div>
+                </div>
+                <div class="col l-3 m-4 c-6 index-tintuc-mobile">
+                    <div class="index-tintuc_box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_attt_1.png" alt="">
+                        <p>CEO 30Shine kể chuyện từ bỏ công nghiệp hóa tay nghề stylist, khẳng định không phải cứ có tiền là mua được nhượng quyền</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--  -->
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <div class="index-xemthem">
+                    <h2 class="index-dichvu-ten">| Không gian & Công Nghệ</h2>
+                    <a href="" style="text-decoration: none; color: red;">Xem tất cả >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="index-khonggian-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="index-khonggian-box">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_kgcn_banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="index-khonggian-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-4 m-4 c-6">
+                    <div class="index-khonggian-item">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_kgcc_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col l-4 m-4 c-6">
+                    <div class="index-khonggian-item">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_kgcc_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col l-4 m-4 c-6 index-tintuc-mobile">
+                    <div class="index-khonggian-item">
+                        <img src="https://storage.30shine.com/web/v4/images/pc/pc_kgcc_1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="index-footer-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-3 c-12 index-footer-none">
+                    <div class="index-footer-menu">
+                        <a href="">Trang chủ</a>
+                        <a href="">Sản phẩm</a>
+                        <a href="">Dịch vụ</a>
+                        <a href="">Tìm địa chỉ gần nhất</a>
+                        <a href="">Giới thiệu</a>
+                        <a href="">Liên hệ</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="index-footer-lienhe">
+                        <a href="">Hotline (100d/phút) 0325132746</a>
+                        <a href="">Liên hệ học tóc 0325132746</a>
+                        <a href="">Liên hệ nhượng quyền</a>
+                        <a href="">Liên hệ quảng cáo</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 index-footer-none">
+                    <div class="index-footer-thoigian">
+                        <a href="">Giờ phục vụ: Thứ 2 đến Chủ Nhật, 8h30 - 20h30</a>
+                        <a href="">Chính sách bảo mật</a>
+                        <a href="">Điều kiện giao dịch chung</a>
+                        <a href="">Giấy phép giáo dục nghề nghiệp</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="index-footer-img">
+                        <p>Tải ứng dụng</p>
+                        <div class="index-footer-tai">
+                            <img src="https://30shine.com/download-app-qr.png" alt="">
+                            <div class="index-footer-tai_app">
+                                <img src="https://30shine.com/footer_apple.png" alt="">
+                                <img src="https://30shine.com/footer_googleplay.png" alt="">
+                            </div>
+                        </div>
+                        <div class="index-footer-img_chungchi">
+                            <img src="https://30shine.com/static/media/footer_congthuongicon.f3d3b02c.png" alt="">
+                            <img class="index-footer-img_chungchi_dmca" src="https://30shine.com/footer_dmca.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="./js/main.js"></script>

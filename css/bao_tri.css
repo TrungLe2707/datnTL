@@ -1,0 +1,33 @@
+.container-bao-tri {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.bao-tri {
+    text-align: center;
+}
+
+.bao-tri-img img {
+    width: 500px; /* Thay đổi kích thước nếu cần */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.bao-tri h1 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.bao-tri p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}

@@ -1,0 +1,197 @@
+
+
+/* Canh lề 80% cho toàn bộ các phần chính */
+.thongtin-info-bar,
+.thongtin-main .thongtin-container,
+.footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Giữ nguyên các thiết lập khác */
+/* .thongtin-info-bar {
+    background-color: #fee2e2;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 10%;
+    max-width: 90%;
+} */
+
+.thongtin-info-bar h1 {
+    color:004F93;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.thongtin-info-bar p {
+    color: 004F93;
+}
+
+.thongtin-main .thongtin-container {
+    display: flex;
+    margin: 20px auto;
+}
+
+.thongtin-main .thongtin-sidebar {
+    width: 25%;
+    padding: 20px;
+}
+
+.thongtin-main .thongtin-sidebar .thongtin-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.thongtin-main .thongtin-sidebar .thongtin-profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.thongtin-main .thongtin-sidebar .thongtin-profile div {
+    margin-left: 10px;
+}
+
+.thongtin-main .thongtin-sidebar .thongtin-profile div p {
+    margin: 0;
+}
+
+.thongtin-main .thongtin-sidebar .thongtin-profile div p:first-child {
+    font-weight: bold;
+}
+
+.thongtin-main .thongtin-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.thongtin-main .thongtin-sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.thongtin-main .thongtin-sidebar nav ul li:hover {
+    background-color: #e5e7eb;
+}
+
+.thongtin-main .thongtin-sidebar nav ul li i {
+    color: #6b7280;
+}
+
+.thongtin-main .thongtin-sidebar nav ul li a {
+    margin-left: 10px;
+    color: #374151;
+    text-decoration: none;
+}
+
+.thongtin-main .thongtin-sidebar hr {
+    margin: 20px 0;
+}
+
+.thongtin-main .thongtin-content {
+    width: 75%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.thongtin-main .thongtin-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.thongtin-main .thongtin-content .thongtin-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.thongtin-main .thongtin-content .thongtin-info div {
+    margin-bottom: 10px;
+}
+
+.thongtin-main .thongtin-content .thongtin-info div p {
+    margin: 0;
+}
+
+.thongtin-main .thongtin-content .thongtin-info div p:first-child {
+    font-weight: bold;
+}
+
+.thongtin-main .thongtin-content button {
+    margin-top: 20px;
+    background-color: #004F93;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .thongtin-main .thongtin-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .thongtin-main .thongtin-sidebar,
+    .thongtin-main .thongtin-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .thongtin-info-bar {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 18px;
+       
+    }
+    .thongtin-main .thongtin-content {
+        width: 100%;
+       
+    }
+    .thongtin-main .thongtin-content .thongtin-info {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .thongtin-info-bar {
+        width: 100%;
+       
+    }
+    .thongtin-info-bar h1 {
+        font-size: 18px;
+        width: 100%;
+    }
+    .thongtin-main .thongtin-content {
+        width: 100%;
+      
+    }
+    .thongtin-main .thongtin-content h2 {
+        font-size: 18px;
+        width: 100%;
+    }
+    .thongtin-main .thongtin-content button {
+        width: 100%;
+    }
+}
+

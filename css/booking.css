@@ -1,0 +1,68 @@
+.booking-index {
+    background: url('/img/booking-backround.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.booking-index .booking-container {
+    text-align: center;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.booking-index .booking-box {
+    margin-top: 10px;
+}
+.booking-index .booking-container h2 {
+    color: red;
+}
+.booking-index .booking-container h3 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+.booking-index .booking-container input {
+    width: 94%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-index .booking-container  button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-index .booking-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-index .booking-container .booking-location-btn, .booking-confirm-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.booking-index .booking-container .booking-confirm-btn {
+    font-size: 16px;
+    font-weight: bold;
+}
+.booking-index .booking-container .booking-note {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
+@media (max-width: 600px) {
+    .booking-index .booking-container {
+        width: 90%;
+    }
+}

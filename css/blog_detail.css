@@ -1,0 +1,276 @@
+.blog-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.blog-container .blog-sidebar {
+    width: 25%;
+    background: #fff;
+    padding: 0px 3%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container .blog-content {
+    width: 75%;
+    background: #fff;
+    padding: 3%;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .blog-container .blog-image {
+    width: 100%;
+    height: 200px;
+    background: #ddd;
+    margin: 15px 0;
+    border-radius: 8px;
+} */
+
+
+
+.blog-content img {
+    max-width: 100%;
+    width: 150vh;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+.blog-container .blog-comments {
+    margin-top: 30px;
+}
+
+.blog-container .blog-comment-box {
+    display: flex;
+    gap: 10px;
+}
+
+.blog-container .blog-comment-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.blog-container .blog-comment-box button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-container .blog-comment {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title-blog-header {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.title-blog h1 {
+    border-left: 6px solid red;
+    padding-left: 10px;
+}
+
+.title-blog-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+    /* Điều chỉnh chiều cao */
+    border-radius: 8px;
+    /* Bo góc cho khung */
+}
+
+.title-blog-img img {
+    max-width: 90%;
+    width: 100%;
+    height: auto;
+    /* Kéo dài ảnh để cắt phần chân */
+    object-fit: cover;
+    object-position: center top;
+    /* Căn ảnh về phía trên */
+    border-radius: 8px;
+    /* Bo góc 8px */
+}
+
+.blog-container .blog-ads-banner img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.blog-icon img {
+    max-width: 100%;
+    width: 30px;
+    height: auto;
+}
+
+.blog-icon-box {
+    display: flex;
+    gap: 20px;
+}
+
+.blog-container ul {
+    margin: 0px;
+}
+
+.blog-container li {
+    list-style: none;
+    margin: 5px 0px;
+
+}
+
+.blog-container a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blog-container .blog-content-2 {
+    width: 75%;
+    background: #fff;
+    padding: 3%;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.blog-content-2 article{
+    height: 100%;
+}
+
+/* .blog-content-2 img {
+    max-width: 100%;
+    width: 150vh;
+    height: auto;
+    border-radius: 8px;
+}  */
+.blog-content-2 .blog-img {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+}
+
+.blog-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog-title-content {
+    max-width: 100%;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    margin-left: 5%;
+    height: auto;
+    box-shadow: 0px 0px 5px;
+    display: block;
+}
+
+
+.blog-content h1 {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.blog-content-text{
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.blog-article{
+    width: 100%;
+    background-color: red;
+}
+
+.blog-sidebar ul{
+    padding: 0px 10px;
+}
+.blog-sidebar li{
+    padding-bottom: 5px;
+    /* text-align: justify;
+    text-justify: inter-word; */
+
+}
+.blog-sidebar-ul-2 ul li{
+    border-bottom: 1px solid #000000;
+}
+.blog-sidebar h3{
+    margin: 13px 0px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column;
+    }
+
+    .blog-container .blog-sidebar,
+    .blog-container .blog-content-2,
+    .blog-container .blog-content {
+        width: 94%;
+        margin: 0 0 20px;
+    }
+    .blog-ads-banner{
+        display: none;
+    }
+    .title-blog-img img{
+        max-width: 95%;
+    }
+    .title-blog h1{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 431px) {
+    .blog-container{
+        padding: 0px;
+    }
+    
+}

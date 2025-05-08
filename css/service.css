@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.service-container .service-title h2{
+    padding-top: 30px;
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+
+}
+.service-container .service-title p{
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+    padding-top: 5px;
+}
+.service-container .service-section{
+    padding-top: 30px;
+}
+.service-container .service-section .service-items{
+    padding-bottom: 25px;
+}
+.service-container .service-section .service-item {
+    width: 100%;
+    
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.3); 
+}
+.service-container .service-section .service-item h3,span{
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+.service-container .service-section .service-item h3{
+    padding-bottom: 5px;
+}
+.service-container .service-section .service-item span{
+    font-weight: 1px;
+}
+.service-container .service-section .service-item .img{
+    padding-top: 20px;
+    width: 230px auto;
+    height: 157px;
+    background-color: white;
+}
+.service-container .service-section .service-item .img img{
+    max-width: 100%;
+}
+.service-container .service-section .service-item .view{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    background-color: white;
+}
+.service-container .service-section .service-item .view .time{
+    width: 112px;
+    /* margin-right: 103px; */
+}
+.service-container .service-section .service-item .view .time button{
+    width: 84px;
+    height: 34px;
+    border-radius: 15px;
+    border: 1px solid  rgb(0, 79, 147, 100%);
+}
+.service-container .service-section .service-item .view .link{
+    width: 112px;
+    margin-left: 68px;
+}
+.service-container .service-section .service-item .view .link a{
+    text-decoration: none;
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+
+}
+.service-container .service-section .service-item .view .link a:hover{
+    text-decoration:underline;
+}
+.service-container .btn{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.service-container .btn button{
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    background-color:  rgb(0, 79, 147, 100%);
+}
+.service-container .btn button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-color:  rgb(0, 79, 147, 100%);
+    font-weight: bold;
+}
+@media screen and (max-width: 741px){
+    *{
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item {
+        width: 100%;
+        padding: 15px;
+    }
+    .service-container .service-section .service-item .view{
+        width: auto;
+        margin-top: 30px;    }
+    .service-container .service-section .service-item .view .time{
+        width: 82px auto;
+    }
+    .service-container .service-section .service-item .view .time button{
+        width: 58px;
+        height: 24px;
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item .view .link{
+        width: 152px auto;
+        margin-left: 25px;
+    }
+    .service-container .service-section .service-item .view .link a{
+        font-size: 12px;
+    }    
+}
+@media screen and (max-width: 605px) {
+    *{
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item {
+        width: 100%;
+        padding: 15px;
+    }
+    .service-container .service-section .service-item .view{
+        width: auto;
+        margin-top: 30px;    }
+    .service-container .service-section .service-item .view .time{
+        width: 82px auto;
+    }
+    .service-container .service-section .service-item .view .time button{
+        width: 58px;
+        height: 24px;
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item .view .link{
+        width: 152px auto;
+        margin-left: 25px;
+    }
+    .service-container .service-section .service-item .view .link a{
+        font-size: 12px;
+    }    
+}
+@media screen and (max-width: 480px) {
+    *{
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item {
+        width: 100%;
+        padding: 15px;
+    }
+    .service-container .service-section .service-item .view{
+        width: auto;
+        margin-top: 5px;    }
+    .service-container .service-section .service-item .view .time{
+        width: 82px auto;
+    }
+    .service-container .service-section .service-item .view .time button{
+        width: 58px;
+        height: 24px;
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item .view .link{
+        width: 152px auto;
+        margin-left: 70px;
+    }
+    .service-container .service-section .service-item .view .link a{
+        font-size: 12px;
+    }    
+}
+@media screen and (max-width: 432px) {
+    *{
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item {
+        width: 100%;
+        padding: 15px;
+    }
+    .service-container .service-section .service-item .view{
+        width: auto;
+        margin-top: 0px;
+    }
+    .service-container .service-section .service-item .view .time{
+        width: 82px auto;
+    }
+    .service-container .service-section .service-item .view .time button{
+        width: 58px;
+        height: 24px;
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item .view .link{
+        width: 152px auto;
+        margin-left: 25px;
+    }
+    .service-container .service-section .service-item .view .link a{
+        font-size: 12px;
+    }    
+}
+@media screen and (max-width: 375px) {
+    *{
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item {
+        width: 100%;
+        padding: 15px;
+    }
+    .service-container .service-section .service-item .view{
+        width: auto;
+        margin-top: 0px;
+    }
+    .service-container .service-section .service-item .view .time{
+        width: 82px auto;
+    }
+    .service-container .service-section .service-item .view .time button{
+        width: 68px;
+        height: 24px;
+        font-size: 12px;
+    }
+    .service-container .service-section .service-item .view .link{
+        width: 152px auto;
+    }
+    .service-container .service-section .service-item .view .link a{
+        font-size: 12px;
+    }    
+}

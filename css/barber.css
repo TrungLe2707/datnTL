@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+.barber-container .barber-title .barber-h2{
+    color: rgb(0, 79, 147, 100%);
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.barber-container .barber-update-time{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.barber-container .barber-update-time .barber-calendar{
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.3); 
+}
+.barber-container .barber-update-time .barber-calendar .barber-name,.barber-p-name,.barber-p-chinhanh,.barber-data .barber-p-name,.barber-p-succes,.barber-p-cannel,.barber-p-day,.barber-p-month{
+    padding-bottom: 10px;
+}
+.barber-container .barber-time-work .barber-appointments{
+    padding-top: 20px;
+}
+.barber-container .barber-time-work .barber-appointment{
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.3); 
+
+}
+.barber-container .barber-time-work .barber-appointment .barber-appointment-p{
+    padding-top: 3px;
+}
+
+.barber-container .barber-btn{
+    width: 140px;
+    height: 30px auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+}
+.barber-container .barber-buttons .logout{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+.barber-container .barber-complete{
+    display: none;
+    width: 140px;
+    height: 30px auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(154, 154, 154, 0.649);
+    color: rgb(112, 109, 109);
+    font-family: 'Arial', sans-serif;
+}

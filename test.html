@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Schedule Management</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="./css/productdetail.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/barber.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/service_detail.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/submit.css">
+    <link rel="stylesheet" href="./css/page_404.css">
+    <link rel="stylesheet" href="./css/booking.css">
+    <link rel="stylesheet" href="./css/blog_detail.css">
+    <link rel="stylesheet" href="./css/bao_tri.css">
+    <link rel="stylesheet" href="./css/donhang.css">
+    <link rel="stylesheet" href="./css/lichsu.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/thongtin.css">
+    <link rel="stylesheet" href="./css/tichdiem.css">
+    <link rel="stylesheet" href="./css/thaydoi.css">
+    <link rel="stylesheet" href="./css/chgn.css">
+    <link rel="stylesheet" href="./css/dangky.css">
+    <link rel="stylesheet" href="./css/user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .schedule-section, .appointments-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fff;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="time"] {
+            padding: 5px;
+            margin: 10px 0;
+            width: 45%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .update-btn {
+            display: block;
+            width: 100%;
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .update-btn:hover {
+            background: #218838;
+        }
+        .appointment {
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .accept, .reject {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        .accept {
+            background: #007bff;
+            color: white;
+        }
+        .accept:hover {
+            background: #0056b3;
+        }
+        .reject {
+            background: #dc3545;
+            color: white;
+        }
+        .reject:hover {
+            background: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quản lý lịch làm việc</h1>
+        
+        <!-- Chỉnh sửa giờ làm việc -->
+        <div class="schedule-section">
+            <h2>Cập nhật lịch làm việc</h2>
+            <label for="work-hours">Giờ làm việc:</label>
+            <input type="time" id="start-time"> - <input type="time" id="end-time">
+            <button class="update-btn">Lưu thay đổi</button>
+        </div>
+        
+        <!-- Danh sách lịch hẹn -->
+        <div class="appointments-section">
+            <h2>Lịch hẹn</h2>
+            <div class="appointment">
+                <p><strong>Khách hàng:</strong> Nguyễn Văn A</p>
+                <p><strong>Giờ hẹn:</strong> 10:00 - 10:30</p>
+                <button class="accept">Xác nhận</button>
+                <button class="reject">Từ chối</button>
+            </div>
+            <div class="appointment">
+                <p><strong>Khách hàng:</strong> Trần Thị B</p>
+                <p><strong>Giờ hẹn:</strong> 14:00 - 14:30</p>
+                <button class="accept">Xác nhận</button>
+                <button class="reject">Từ chối</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container h2{
+    padding-top: 30px;
+    color:  rgb(0, 79, 147, 100%);
+    font-family: 'Arial', sans-serif;
+
+}
+.container .section .contact-info{
+    padding-top: 20px;
+}
+.container .section .contact-info .contact-address,.contact-mail,.contact-phone{
+    display: flex;
+    align-items: center;
+    width: 100% auto;
+}
+.container .section .contact-info .contact-icon{
+    width: 5%;
+}
+.container .section .contact-info .contact-icon .contact-img{
+    max-width: 100%;
+    color:  rgb(0, 79, 147, 100%);
+}
+.container .section .contact-info .contact-address-detail,.contact-email-detail,.contact-phone-detail{
+    padding-left: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 100;
+}
+.container .section .contact-map{
+    width: 528px auto;
+    height: 312px;
+    margin-top: 15px;
+}
+.container .section .contact-map .contact-bando{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container .section .contact-form-full{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.3); 
+    border-radius: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.container .section .contact-form{
+    width: 100%;
+    /* padding: 10%; */
+    padding: 0% 5% 0% 5%;
+    text-align: center;
+}
+.container .section .contact-form .contact-form-input-name,
+.contact-form-input-phone,.contact-form-input-problem{
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+.container .section .contact-form .contact-form-input-problem{
+    height: 30%;
+}
+.container .section .contact-form .contact-btn{
+    margin-top: 30px;
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    background-color:  rgb(0, 79, 147, 100%);
+}
+.container .section .contact-form .contact-btn .a{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 740px){
+    .container .section .contact-form-full{
+        width: 100%;
+        box-shadow: none; 
+        display: flex;
+        border-radius: 10px;
+    }
+    .container .section .contact-form .contact-form-input-name,
+.contact-form-input-phone,.contact-form-input-problem{
+    width: 80%;
+    height: 10%;
+    border-radius: 7px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+}
