@@ -33,8 +33,82 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <h1>day la header</h1>
+    <div class="top-bar">
+        <div class="top-bar-address">
+            391 Tô Ký, phường Trung Mỹ Tây, quận 12, TP.HCM
+        </div>
+        <marquee behavior="" direction="">Cắt tóc đẹp trai - đến ngay Dev Style / Tặng voucher giảm 15% khi mua sản phẩm cho khách hàng mới</marquee>
+        <div class="top-bar-social">
+            <img class="top-bar-icon" src="/datn-master/img/facebook-app-symbol.png" alt="">
+            <img class="top-bar-icon" src="/datn-master/img/linkedin-big-logo.png" alt="">
+            <img class="top-bar-icon" src="/datn-master/img/instagram.png" alt="">
+    
+        </div>
+    </div>
+    <header class="index-header">
+        <label for="nav_mobile" class="index-header_3">
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </label>
+    
+        <input hidden type="checkbox" class="nav_input" id="nav_mobile">
+    
+        <label for="nav_mobile" class="nav_overlay"></label>
+        <nav class="nav_mobile">
+    
+            <label for="nav_mobile" class="mobile-close">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+    
+            <ul class="list">
+                <h2 style="padding: 40px 0 20px 50px;">MENU</h2>
+                <li><a class="mobile_link" href="./index.html">Trang chủ</a></li>
+                <li><a class="mobile_link" href="./product.html">Sản phẩm</a></li>
+                <li><a class="mobile_link" href="./service.html">Dịch vụ</a></li>
+                <li><a class="mobile_link" href="">Tìm địa chỉ gần nhất</a></li>
+                <li><a class="mobile_link" href="">Giới thiệu</a></li>
+                <li><a class="mobile_link" href="">Liên hệ</a></li>
+                <li><a class="mobile_link" href="">Xem yêu thích</a></li>
+                <br><br>
+                <li><a class="mobile_link" href="">Đăng ký</a></li>
+                <li><a class="mobile_link" href="">Đăng nhập</a></li>
+            </ul>
+        </nav>
+    
+    
+    
+        <div class="index-logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="index-header_box">
+            <div class="index-box_top">
+                <!-- nam sửa -->
+                <div class="index-header-search">
+                    <input type="text" placeholder="   Tìm kiếm...">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="index-header-hotline">
+                   <a href=""><p>Hotline: 0325132746</p></a> 
+                </div>
+                
+                <div class="index-header_icon">
+                    <a class="index-header_iconuser" href=""><i class="fa-solid fa-heart"></i></a>
+                    <a class="index-header_iconsearch" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="index-header_iconuser" href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+    
+            <nav class="index-nav">
+                <ul>
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./product.html">Sản phẩm</a></li>
+                    <li><a href="./service.html">Dịch vụ</a></li>
+                    <li><a href="">Tìm địa chỉ gần nhất</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div class="thaydoi-info-bar">
@@ -84,11 +158,11 @@
                         </div>
                         <div>
                             <label for="city">Tỉnh/Thành Phố*</label>
-                            <input type="text" id="city" value="Thành Phố Hồ Chí Minh">
+                            <input type="text" id="city" value="Thành phố Hồ Chí Minh">
                         </div>
                         <div>
                             <label for="district">Quận/Huyện*</label>
-                            <input type="text" id="district" value="Quận Thủ Đưc">
+                            <input type="text" id="district" value="Quận Thủ Đức">
                         </div>
                         <div>
                             <label for="ward">Xã/Thị Trấn*</label>
@@ -99,13 +173,59 @@
                             <input type="text" id="address" value="445/9A Kha Vạn Cân">
                         </div>
                     </div>
-                    <button type="submit">Cập nhật</button>
+                    <button type="submit">💾 Cập nhật</button>
                 </form>
             </section>
+            
         </div>
     </main>
-    <footer class="footer">
-        <h3>day la foooter</h3>
+    <footer class="index-footer-all">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-3 c-12 index-footer-none">
+                    <div class="index-footer-menu">
+                        <a href="">Trang chủ</a>
+                        <a href="">Sản phẩm</a>
+                        <a href="">Dịch vụ</a>
+                        <a href="">Tìm địa chỉ gần nhất</a>
+                        <a href="">Giới thiệu</a>
+                        <a href="">Liên hệ</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="index-footer-lienhe">
+                        <a href="">Hotline (100d/phút) 0325132746</a>
+                        <a href="">Liên hệ học tóc 0325132746</a>
+                        <a href="">Liên hệ nhượng quyền</a>
+                        <a href="">Liên hệ quảng cáo</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 index-footer-none">
+                    <div class="index-footer-thoigian">
+                        <a href="">Giờ phục vụ: Thứ 2 đến Chủ Nhật, 8h30 - 20h30</a>
+                        <a href="">Chính sách bảo mật</a>
+                        <a href="">Điều kiện giao dịch chung</a>
+                        <a href="">Giấy phép giáo dục nghề nghiệp</a>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="index-footer-img">
+                        <p>Tải ứng dụng</p>
+                        <div class="index-footer-tai">
+                            <img src="https://30shine.com/download-app-qr.png" alt="">
+                            <div class="index-footer-tai_app">
+                                <img src="https://30shine.com/footer_apple.png" alt="">
+                                <img src="https://30shine.com/footer_googleplay.png" alt="">
+                            </div>
+                        </div>
+                        <div class="index-footer-img_chungchi">
+                            <img src="https://30shine.com/static/media/footer_congthuongicon.f3d3b02c.png" alt="">
+                            <img class="index-footer-img_chungchi_dmca" src="https://30shine.com/footer_dmca.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script>
@@ -116,3 +236,4 @@
     </script>
 </body>
 </html>
+<script src="./js/main.js"></script>

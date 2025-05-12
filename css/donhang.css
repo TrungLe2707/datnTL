@@ -1,8 +1,7 @@
 
-
-.header, .footer {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.donhang-header{
+    width: 100%;
+    background-color:gray;
 }
 
 
@@ -11,14 +10,6 @@
     width: 80%;
     margin: 0 auto;
 }
-/* .donhang-info-bar {
-    background-color: #fee2e2;
-    padding: 10px 20px;
-    margin: 10px auto;
-    margin-left: 10%;
-    border-radius: 4px;
-    max-width: 80%;
-} */
 
 .donhang-info-bar h1 {
     color:004F93;
@@ -132,6 +123,9 @@
 .donhang-order-list.active {
     display: block;
 }
+.donhang-order-list p {
+    margin-top: 10px;
+}
 
 .donhang-order-item {
     display: flex;
@@ -153,11 +147,9 @@
     font-size: 16px;
 }
 
-.footer {
-    background-color: #1f2937;
-    color: #ffffff;
-    padding: 20px 0;
-    margin-top: 40px;
+.donhang-footer{
+    width: 100%;
+    background-color: gray;
 }
 
 /* Responsive Design */

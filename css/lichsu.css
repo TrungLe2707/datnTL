@@ -23,214 +23,264 @@
 
 .lichsu-rating-section {
   text-align: center;
-  font-family: Arial, sans-serif;
-  margin: 20px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
 }
+
+.lichsu-rating-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
 .stars i {
-  font-size: 30px;
-  color: #ccc;
+  font-size: 32px;
+  color: #d1d5db;
+  margin: 0 5px;
   cursor: pointer;
-  transition: color 0.2s;
+  transition: color 0.3s ease;
 }
+
 .stars i.active {
-  color: gold;
+  color: #f59e0b; /* vàng đẹp */
 }
+
 .lichsu-comment-box {
-  width: 100%;
   max-width: 500px;
-  margin: 15px auto;
+  margin: 20px auto;
 }
+
 .lichsu-textarea {
   width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  resize: vertical;
+  font-size: 16px;
 }
+
 .lichsu-submit-btn {
-  background-color: 004F93;
+  background-color: #2563eb;
   color: white;
+  padding: 10px 24px;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-size: 16px;
   cursor: pointer;
-}
-.lichsu-submit-btn:hover {
-  background-color: #0056b3;
-}
-.lichsu-label{
-  font-size: 20px;
- 
-}
-.lichsu-details p{
-  font-size: 20px;
-  padding-top: 20px;
-  padding-left: 10px;
-}
-.stars i {
-  color: #d1d5db;
-  font-size: 1.875rem;
-  margin: 0 4px;
-  cursor: pointer;
-  transition: color 0.2s;
+  transition: background-color 0.3s;
 }
 
-.stars i.active {
-  color: #fbbf24;
+.lichsu-submit-btn:hover {
+  background-color: #1d4ed8;
 }
+
+/* Card lịch sử */
+/* Base styles - Mobile first */
 
 .lichsu-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 16px;
-}.lichsu-card {
-  background-color: #ffffff;
-  padding: 16px;
-  border-radius: 12px; /* Bo góc mềm hơn */
-  border: 2px solid #e5e7eb; /* Viền xám nhẹ */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), /* Bóng chính */
-              0 1px 3px rgba(0, 0, 0, 0.05); /* Bóng phụ nhẹ */
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-
-
-@media (min-width: 768px) {
-  .lichsu-grid {
-      grid-template-columns: 1fr 1fr; 
-  }
+  gap: 24px;
+  padding: 20px;
 }
 
 .lichsu-card {
   background-color: #ffffff;
-  padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.lichsu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
 .lichsu-h3 {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #1f2937;
 }
 
 .lichsu-h3 i {
-  color: #000000;
-  font-size: 1.25rem;
-  margin-right: 8px;
+  color: #3b82f6;
+  margin-right: 10px;
+  font-size: 22px;
 }
 
 .lichsu-h3 h3 {
-  color: #000000;
-  font-weight: bold;
+  margin: 0;
 }
 
-.lichsu-card p {
+.lichsu-time {
+  font-size: 14px;
   color: #6b7280;
-  margin-bottom: 10px;
-  margin-top: 5px;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 .lichsu-content {
   display: flex;
-  align-items: start;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
-.lichsu-content img {
-  width: 150px;
-  height: 100px;
-  border-radius: 8px;
-  margin-right: 16px;
+.lichsu-img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
+.lichsu-details {
+  width: 100%;
+  text-align: center;
+}
 
 .lichsu-details p {
-  margin-bottom: 4px;
+  margin: 8px 0;
+  font-size: 16px;
+  color: #374151;
+  line-height: 1.6;
 }
 
-.lichsu-details .lichsu-label {
-  font-weight: bold;
+.lichsu-label {
+  font-weight: 600;
+  color: #111827;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
+/* Phân trang */
 .lichsu-pagination {
   display: flex;
   justify-content: center;
-  margin-top: 24px;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .lichsu-pagination a {
-  padding: 8px 12px;
+  background: #fff;
   border: 1px solid #d1d5db;
-  color: #6b7280;
-  background-color: #ffffff;
+  color: #374151;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 8px;
   text-decoration: none;
-  margin: 0 4px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
 }
 
 .lichsu-pagination a:hover {
-  background-color: #e5e7eb;
+  background-color: #3b82f6;
+  color: #ffffff;
 }
 
-/* Additional responsive styles */
-@media (max-width: 480px) {
-  .lichsu-container {
-      padding: 8px; /* Adjust padding for smaller screens */
-      max-width: 100%; /* Ensure full width on mobile */
-  }
-
-  .lichsu-tieude h1 {
-      font-size: 1rem; /* Smaller title font size */
-  }
-
-  .lichsu-tieude p {
-      font-size: 0.875rem; /* Smaller paragraph font size */
-  }
-
-  .lichsu-rating-section h2 {
-      font-size: 10px; /* Smaller rating title font size */
-  }
-
-  .stars i {
-      font-size: 1.5rem; /* Smaller star size */
-  }
-
+/* Tablet: 600px */
+@media (min-width: 600px) {
   .lichsu-content {
-      display: flex; /* Use flexbox for alignment */
-      flex-direction: column; /* Stack image and lichsu-details vertically */
-      align-items: center; /* Center items horizontally */
-      text-align: center; /* Center text */
-  }
-  .lichsu-label{
-    font-size: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
   }
 
-  .lichsu-content img {
-      width: 100%; /* Full width image on mobile */
-      max-width: 300px; /* Limit max width for the image */
-      height: auto; /* Maintain aspect ratio */
-      margin-bottom: 8px; /* Space between image and text */
+  .lichsu-details {
+    flex: 1;
+  }
+
+  .lichsu-img {
+    max-height: 320px;
+  }
+
+  .lichsu-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+
+/* Desktop: 768px */
+@media (min-width: 768px) {
+  
+  .lichsu-grid {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
   }
 
   .lichsu-card {
-      padding: 12px; /* Adjust card padding for smaller screens */
-      margin-bottom: 16px; /* Space between cards */
+    width: 100%;
+    padding: 28px;
+    box-sizing: border-box;
   }
 
-  .lichsu-h3 h3 {
-      font-size: 1rem; /* Smaller heading font size */
+  .lichsu-h3 {
+    font-size: 22px;
   }
 
-  .lichsu-card p {
-      font-size: 20px; /
+  .lichsu-details p {
+    font-size: 18px;
   }
-
-  .lichsu-pagination {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 24px; 
 }
 
+/* Full-width on smaller screens */
+@media (max-width: 768px) {
+  .lichsu-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  .lichsu-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 12px;
+  }
 
+  .lichsu-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+  }
+
+  .lichsu-h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .lichsu-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .lichsu-label {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .lichsu-details p {
+    font-size: 14px;
+  }
+
+  .lichsu-pagination a {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
 }
